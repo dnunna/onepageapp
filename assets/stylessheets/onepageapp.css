@@ -1,0 +1,309 @@
+/*This is the whole page styling*/
+*{
+  /*box-sizing: border-box;
+  border: 1px black solid;*/
+}
+
+/*This styling removes any outlines on input boxes or submit button when we click on it*/
+*:focus{
+  outline: none;
+}
+
+/*This is back ground color for body content*/
+body{
+background-color:	#F5F5F5;
+}
+
+/*Site logo styling*/
+.mainlogo{
+  margin-top: 10em;
+  margin-left: 10em;
+  background-repeat: no-repeat;
+  height: 5em;
+  background-size: 12em 5em;
+  background-image: url("../../assets/images/zapio_logo@2x.png");
+}
+
+/* header styling*/
+.header p{
+  padding-top: 2em;
+  font-size: 2.25em;
+  color: light black;
+}
+/* Hero image Styling*/
+.hero{
+  background-image: url(../images/zapio-header-building.png);
+  background-repeat: no-repeat;
+  background-size: 45em 35em;
+  background-position: right bottom;
+  height: 35em;
+}
+
+/*This is for white shadow effect on building image - but it didn't workout for me*/
+.image_shadow {
+	background: linear-gradient(0%, 0%, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  z-index: 10;
+}
+
+/* all headers font style*/
+h1, h2, h3, h4 {
+    font-family: 'Moderat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+/*keep me informed button styling*/
+.header_button{
+    background-color: white;
+    color: grey;
+    text-align: left;
+    padding: 22px 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1em;
+    width: 23em;
+    cursor: pointer;
+    padding-right: 1em;
+}
+/*right arrow styling in header section*/
+#button_arrow {
+  float: right;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/*revolution image position styling*/
+.factory{
+  margin-top: 18em;
+  margin-left: 10em;
+}
+
+/*revolution image title styling*/
+h3 {
+    margin-top: 3em;
+    margin-left: 10em;
+    font-size: 1.667em;
+    line-height: 1.15em;
+    opacity: 0.5;
+    color: #4a4a4a;
+    margin-bottom: 3.5rem;
+}
+
+
+/*main content margin set*/
+.main{
+  margin-top: 10em;
+}
+/*revolution intro text - "Solution " styling*/
+.rev_intro_text a{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #880E4F;
+
+}
+/*revolution intro text position and styling*/
+.rev_right{
+  margin-top: -5em;
+  margin-right: 10em;
+  font-size: 2rem;
+  line-height: 1em;
+  float: right;
+}
+/*Three platforms heading positioning - Not able to include the animation*/
+.Platform_anim{
+  display: flex;
+  margin-top:  10em;
+  margin-left: 1em;
+  flex-flow: row wrap;
+}
+
+/*platform capture content - there is animation I couldn't do it*/
+#capture_content{
+ margin-top: 1em;
+ margin-left: 50em;
+width: 50%;
+}
+
+/* common block for hardware and software section styling*/
+.Hard_SoftSection {
+  margin-top: -5em;
+  display: flex;
+  margin-left: 5em;
+  margin-right:  5em;
+  font: 20px Arial;
+}
+
+/*Hardware_section styling*/
+#Hardware_section
+{
+  margin-top: 5em;
+  margin-right: 5em;
+  float: left;
+}
+
+/*hardware section heading positioning*/
+#hardware_content h3{
+  margin-left: 0em;
+}
+
+/*hardware section image positioning*/
+.hard_image{
+width: 90%;
+  transform:scale(-1,1);
+          /*-webkit-transform:scale(-1,1);
+          -moz-transform:scale(-1,1);*/
+          -o-transform:scale(-1,1)
+}
+
+/*software section styling*/
+#Software_Section{
+  margin-top: 5em;
+  margin-left: -3em;
+  float: left;
+
+}
+
+/*software image sizing*/
+.soft_image{
+  width: 100%;
+}
+/*software header positioning*/
+#software_content h3{
+  margin-left: 0em;
+}
+.newsletter_section{
+  display: block;
+  background-color: black;
+  padding: 100px;
+  margin-top: -2em;
+}
+.upto_date{
+  background-color: #F2F3F4;
+  display: block;
+  align-items: center;
+  border-radius: 4px;
+  padding-left: 2em;
+}
+
+.left_content{
+  display: inline-block;
+width: 59%;
+vertical-align: middle;
+}
+
+.left_content h4{
+  font-size: 1.75em;
+  line-height: 1.15em;
+  color: purple;
+}
+.left_content h4 span{
+  display: block;
+  color: grey;
+}
+
+.right_content{
+  display: inline-table;
+  border-radius: 4px;
+
+}
+
+#email_address{
+  height: 3em;
+  width: 18em;
+text-align: center;
+  font-size: 1em;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+    border-color: white;
+}
+
+.Submit{
+  width: 6em;
+  height: 3.25em;
+  color: white;
+  font-size: 1em;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: purple;
+
+}
+.Contact_Join_Container{
+  background-color: #F5F5F5;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.upto_date{
+  color: white;
+}
+
+#Contact_us{
+  margin-top: 3em;
+  margin-left: 10em;
+  float: left;
+}
+
+#Contact_us h4{
+  font-family: serif;
+  font-size: 24px;
+  color: purple;
+}
+
+#Contact_us p{
+  font-family: serif;
+  font-size: 20px;
+}
+.WriteUsMessage{
+  width: 15em;
+  height: 3em;
+  font-size: 16px;
+  align-items: center;
+  border-width: thin;
+  border-radius: 4px;
+  background-color: #D81B60;
+  color: white;
+}
+
+.write_msg_button a{
+  text-decoration: none;
+}
+#Join_Team{
+  margin-top: 3em;
+  margin-right: 10em;
+  float: right;
+}
+#Join_Team h4{
+  font-family: serif;
+  font-size: 24px;
+  color: #D81B60;
+}
+#Join_Team{
+  font-family: serif;
+  font-size: 20px;
+}
+.sub_res_button button{
+  width: 12em;
+  height: 3em;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 4px;
+  border-color: purple;
+  border-style: solid;
+  background-color: transparent;
+  color: purple;
+}
+.sub_res_button button:hover{
+  background-color: purple;
+  color: white;
+}
+.sub_res_button, .sub_res_button:link {
+  color: purple;
+  text-decoration: none;
+}
+.footer_copy{
+  padding-top: 20em;
+  margin-left: 8em;
+}
