@@ -37,12 +37,14 @@ background-color:	#F5F5F5;
   background-size: 45em 35em;
   background-position: right bottom;
   height: 35em;
+  z-index: 10;
 }
 
-/*This is for white shadow effect on building image - but it didn't workout for me*/
-.image_shadow {
-	background: linear-gradient(0%, 0%, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+.image_shadow{
+
+  background:linear-gradient(rgba(255,255,255,0) 0%,rgba(255, 255, 255, 0.5)75%);
   z-index: 10;
+
 }
 
 /* all headers font style*/
@@ -306,4 +308,17 @@ text-align: center;
 .footer_copy{
   padding-top: 20em;
   margin-left: 8em;
+}
+
+@media only screen and (max-width: 600px) {
+.Hard_SoftSection{
+width: 25%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact_Join_Container{
+    width: 50%;
+  }
 }
